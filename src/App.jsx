@@ -1,10 +1,14 @@
-
+import { Header } from "./components/Header"
+import { Main } from "./components/Main.jsx"
+import { Footer } from "./components/Footer.jsx"
+ 
 
 export function App() {
   return (
     <>
-    <h1>AAAAA</h1>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquid delectus odio quos, ullam iste libero, aut soluta similique corrupti non voluptate earum ipsam nesciunt incidunt cupiditate aliquam reprehenderit distinctio.</div>
+    <Header/>
+    <Main/>
+    <Footer/>
     </>
   )
 }
