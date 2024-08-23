@@ -1,0 +1,30 @@
+{
+	"Componente": {
+		"prefix": ".componente",
+		"body": [
+			"export function ${1:Componente}() {",
+			"",
+			"\treturn (",
+			"\t\t$0",
+			"\t)",
+			"}"
+		],
+		"description": "Cria um componente funcional"
+	},
+	"Componente CSS": {
+		"prefix": "compCSS",
+		"body": [
+			"import styles from './${1:Componente}.module.css'",
+			"",
+			"export function ${1:Componente}() {",
+			"",
+			"\treturn (",
+			"\t\t<div className = {styles.Header}>",
+			"\t\t\t$0",
+			"\t\t</div>",
+			"\t)",
+			"}"
+		],
+		"description": "Cria um componente funcional"
+	}
+}
