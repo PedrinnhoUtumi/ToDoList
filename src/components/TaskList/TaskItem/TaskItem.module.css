@@ -1,0 +1,7 @@
+.TaskItem {
+    border: 1px solid var(--preto);
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

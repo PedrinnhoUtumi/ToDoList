@@ -1,6 +1,7 @@
 .Header {
     background-color: var(--preto);
     padding: 0.25rem 0.5rem;
+    width: 100%;
 }
 
 .Header span {

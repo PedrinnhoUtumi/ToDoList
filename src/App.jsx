@@ -1,18 +1,23 @@
 import { Header } from "./components/Header/Header.jsx"
 import { Main } from "./components/Main/Main.jsx"
+import { TaskList } from "./components/TaskList/TaskList.jsx"
 import { Footer } from "./components/Footer/Footer.jsx"
  
+import styles from "./App.module.css"
 
 export function App() {
   return (
-    <>
+    <div className = {styles.App}>
     <Header/>
     <Main>
-      <h3>AAAAAA</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil optio fuga nostrum nisi natus dicta, quia eaque repudiandae tempore dignissimos repellat facere quo laborum nobis accusantium temporibus, consectetur, nesciunt totam.</p>
+      <form action="">
+        <input type="text"/>
+        <button>+</button>
+      </form>
+      <TaskList/>
     </Main>
     <Footer autor = "Pedro" ano = "2024"/>
-    </>
+    </div>
   )
 }
 

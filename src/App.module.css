@@ -1,0 +1,17 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.App form {
+    padding: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.App form input {
+    padding: 0.5rem;
+    width: 20rem;
+}
+.App form button {
+    padding: 0.5rem 1rem;
+}

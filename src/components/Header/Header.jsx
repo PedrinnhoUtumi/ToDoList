@@ -6,7 +6,7 @@ export function Header() {
         <>
         <div className = {styles.Header}>
             <h1>
-                <span>TODO</span> list
+                <span>TODO</span>list
             </h1>
         </div>
         </>
